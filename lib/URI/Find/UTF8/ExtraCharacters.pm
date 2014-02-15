@@ -2,7 +2,6 @@ package URI::Find::UTF8::ExtraCharacters;
 
 use strict;
 use warnings;
-use Data::Dumper::Concise;
 
 use base 'URI::Find::UTF8';
 =head1 NAME
