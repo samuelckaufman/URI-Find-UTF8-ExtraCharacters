@@ -5,7 +5,7 @@ use warnings;
 use Data::Dumper::Concise;
 
 use base 'URI::Find::UTF8';
-our @_chars;
+
 sub uric_set {
     my $self = shift;
     join('', map { quotemeta($_) } @{ $self->{_extra_characters} } )
