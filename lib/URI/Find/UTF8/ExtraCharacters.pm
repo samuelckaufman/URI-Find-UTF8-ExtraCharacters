@@ -35,7 +35,7 @@ URI::Find thinks are bogus. ( like '|' )
     my $finder = URI::Find::UTF8::ExtraCharacters->new(\&callback,
         extra_characters => \@chars );
 
-Creates a new URI::Find::UTF8::ExtraCharacters object.
+Creates a new URI::Find::UTF8::ExtraCharacters object. See the docs for L<URI::Find> for more in depth documentation.
 
 =back
 
@@ -70,7 +70,8 @@ Copyright 2014 by Samuel Kaufman
  This program is free software; you can redistribute it and/or
  modify it under the same terms as Perl itself.
 
-  See F<http://www.perlfoundation.org/artistic_license_1_0>
+See L<http://www.perlfoundation.org/artistic_license_1_0>
+
 
 =cut
 
